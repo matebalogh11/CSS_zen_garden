@@ -22,7 +22,8 @@ body {
     margin: 10px auto 10px auto;
     border: dotted;
     padding: 10px;
-
+    background-color: #ebe5fb;
+    opacity: 0.85;
     }
 
 header {
@@ -63,7 +64,7 @@ h3 {
     text-align: center;
     border-style: solid;
     border-radius: 30px;
-    background-color: #88cccc;
+    background-color: 	#cfc9ec;
     border-width: 0;
     width: 200px;
     padding: 5px;
@@ -82,3 +83,60 @@ footer {
     margin-left: 150px;
 }
 
+#zen-summary {
+    text-align: center;
+    border-style: solid;
+    border-color: #cfc9ec;
+    border-width: 0px 0px 0px 5px;
+    border-radius: 10px;
+    background-color: #eeeafc;
+    margin: 10px;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+#zen-intro p {
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+
+abbr {
+    font-weight: bold;
+}
+
+#design-selection ul {
+    line-height: 35px;
+    list-style-type: square;
+    list-style-position: inside;
+    background: #dae4ea;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+#design-archives li {
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.5em;
+}
+
+#zen-resources {
+    text-align: center;
+}
+
+#zen-resources li {
+    display: inline;
+    font-size: 0.9em;
+}
+
+#zen-resources ul {
+    border-style: solid;
+    border-width: 2px 0px 2px 0px;
+    border-color: grey;
+    padding: 5px;
+}
