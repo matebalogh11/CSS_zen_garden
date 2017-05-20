@@ -15,16 +15,21 @@ body {
     height: 100%;
     font-family: "Exo 2";
     background: url(icy.png) top repeat-x, url(snow.png) bottom repeat-x fixed;
+    z-index: 4
     }
 
 .page-wrapper {
     width: 600px;
     margin: 10px auto 10px auto;
     border: dotted;
-    padding: 10px;
+    padding: 20px;
     background-color: #ebe5fb;
     opacity: 0.85;
     }
+
+p {
+    color: #112155;
+}
 
 header {
     color: #3d5066;
@@ -36,6 +41,10 @@ header {
     text-shadow: 3px 3px #a3a4b6;
     padding-left: 5px;
     }
+
+header abbr {
+    color:#112155;
+}
 
 a:link {
 	color: #800080;
@@ -51,14 +60,9 @@ a:hover, a:active {
 	text-indent: 10px;
 	}
 
-.preamble p:nth-child(2) {
+#zen-preamble p:nth-child(2) {
      	text-indent: 10px;
 	}
-
-p {
-    line-height: 95%;
-    word-spacing: 1px;
-    }
 
 h3 {
     text-align: center;
@@ -99,11 +103,11 @@ footer {
 
 #zen-intro p {
     text-align: justify;
-    letter-spacing: 0.5px;
 }
 
 abbr {
     font-weight: bold;
+    color: black;
 }
 
 #design-selection ul {
